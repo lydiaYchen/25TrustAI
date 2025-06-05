@@ -8,7 +8,7 @@ This repository contains the materials of the  **Seminar on Seminar Trustworthy 
 
 ##  <a name='Importantlinks'></a>Important links
 
-- [Topics and papers List ](PaperList.md)
+- [Topics and papers List ](papers.md)
 
 
 
