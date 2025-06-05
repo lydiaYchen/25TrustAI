@@ -71,18 +71,18 @@ Here is the schedule for completing the project
 ##  <a name='Detailedschedule'></a>Detailed schedule
 
 
-**Week**|**Topic**|**Presenter**|**Milestoneså**
+**Week**|**Topic**|**Presenter**|**Milestones**
 :-----|:----- |:-----|:-----
 Week 1 (09/16) | Trustworthy GAI I| Lydia |
-Week 2 (09/23)| Trustworthy GAI II | Supervisors | Mandatory Presence
+Week 2 (09/23)| Trustworthy GAI II | Supervisors | **Mandatory Presence**
 Week 3 (09/30)| Trustworthy RL I | Christos|Meeting supervisor - defining the project
-Week 4 (10/07)| Trustworthy RL II| Supervisors| Mandatory Presence
+Week 4 (10/07)| Trustworthy RL II| Supervisors| **Mandatory Presence**
 Week 5 (10/14)| Self study| 
 Week 6 (10/21)| Self study| |Meeting supervisor - reproducing results| 
 Week 7 (10/28)| Self study |
 Week 8 (11/04| Self study| | Meeting supervisor - extending paper
 Week 9 (11/11)| Self study | 
 Week 10 (11/18)|Self study| | Meeting supervisor - final check| 
-Week 11 (11/25)|  Project presentation| Mandatory Presence
-Week 12 (12/02)|  Project presentation| Mandatory Presence
-Week 13 (12/09)| Project presentation| Mandatory Presence
+Week 11 (11/25)|  Project presentation|Student groups| **Mandatory Presence**
+Week 12 (12/02)|  Project presentation|Student groups| **Mandatory Presence**
+Week 13 (12/09)| Project presentation|Student groups |**Mandatory Presence**
