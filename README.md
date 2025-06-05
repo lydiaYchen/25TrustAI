@@ -55,15 +55,13 @@ Lydia can be always reached at **lydiaychen@ieee.org**. In order to get prompt r
 
 **All assessment items (presentation slides and report,) have to be submitted via ILIAS.**
 
-To pass the course, you need to
-1. Reproduce a paper
-2. Extend a paper
-3. Write a report about your efforts in the paper format
-4. Present the report
-5. Submit the report, slides, and provide the git code repository
-6. Mandatory to present in all project presentation
-7. Mandaotry to meet your project supervisor
-
+Here is the schedule for completing the project
+1. Week 3: Selecting the paper from the list and having the first-meeting to discuss the plan with the supervisor
+2. Week 6: Presenting the **reproducing results** and discussing the results and the next step with the supervisor 
+3. Week 8: Presenting the **optimization results** and discussing the results and the next step with the supervisor 
+4. Week 10: Presenting the **final results** and discussing the presentation plan with the supervisor 
+5. Week 11: Submitting the report and link for repository
+6. Week 11/12/13: Presenting the project 
 ##  <a name='Detailedschedule'></a>Detailed schedule
 
 
