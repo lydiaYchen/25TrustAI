@@ -8,8 +8,8 @@ This repository contains the materials of the  **Seminar on Seminar Trustworthy 
 
 ##  <a name='Importantlinks'></a>Important links
 
-- [Paper Reading List](PaperList.md)
-- [Review template](review.md)
+- [Topics and papers List ](PaperList.md)
+
 
 
 
@@ -19,17 +19,16 @@ Artifical Intelligent models systems the integrated part of our deaily life.
 
 The aim of this seminar course is to let students learn how to understand, design and build trustworthy AI systems via paper reproducing and extensiong.  We provide a broad overview on the design of the state-of-the-art Trustworthy AI models and systems, with a strong focus generative AI and reinforcement learning systems. 
 
-The course materials will be based on a mixture of classic and recently published papers. The first 3-4 lectures, the basic concept of distributed machine learning will be covered, followed by six weeks of individual group advising, and then student group will present their project outcomes in the last three weeks
+The course materials will be based on a mixture of classic and recently published papers. The first 3-4 lectures, the basic concept of distributed machine learning will be covered, followed by six weeks of individual group advising, and then student group will present their project outcomes in the last three weeks.
 
 
-##  <a name='Paper List'></a>Mandatory 
+##  <a name='Paper List'></a>Course assessment
 
 
-Paper reading and reviews are the key activities in this course. To pass the course, you need to 
-- Submit at 3 reviewers on different topics.
-- Present at one paper out of 5 topics during the second half of the course.
-- All reviews need to be submitted to the ILIAS by the last week of the semester.
-
+Paper reading, reproducing and improvement  are the key activities in this course. To pass the course, you need to 
+- A project report based on reproducing and improving one of the provided papers (account for 100% of grades)
+- Attending  all the paper presentations and project presentations (nongraded)
+  
 
 Check [Paper Reading List](PaperList.md)
 
@@ -40,12 +39,12 @@ This course will be mainly taught by [Prof. Lydia Y Chen]([https://lydiaychen.gi
 
 
 
-Lydia can be alwasy reached at **lydiaychen@ieee.org**. In order to get prompt response about the course, put the email title starting with [TAI25]
+Lydia can be always reached at **lydiaychen@ieee.org**. In order to get prompt response about the course, put the email title starting with [TAI25]
 
 
 ##  <a name='Learningobjectives'></a>Learning objectives
 - To prepare the base for master thesis. 
-- To argue and reason about Trustworkthy AI from the model and system perspective.
+- To argue and reason about Trustworthy AI from the model and system perspective.
 - Generative AI I
 - Generative AI 2
 - RL 1
@@ -68,19 +67,18 @@ To pass the course, you need to
 ##  <a name='Detailedschedule'></a>Detailed schedule
 
 
-**Week**|**Topic**|**Presenter**
+**Week**|**Topic**|**Presenter**|**Milestoneså**
 :-----|:----- |:-----|:-----
 Week 1 (09/16) | Trustworthy GAI I| Lydia |
 Week 2 (09/23)| Trustworthy GAI II | Lydia |
-Week 3 (09/30)| Trustworthy RL I | Christos|Meeting superivsor - defining the project
+Week 3 (09/30)| Trustworthy RL I | Christos|Meeting supervisor - defining the project
 Week 4 (10/07)| Trustworthy RL II| Christos| 
-Week 5 (10/14)| Self study|
-Week 6 (10/21)| Self study |Meeting supervisor - reproducing results
+Week 5 (10/14)| Self study| 
+Week 6 (10/21)| Self study |Meeting supervisor - reproducing results| 
 Week 7 (10/28)| Self study |
-Week 8 (11/04| Self study| Meeting supervisor - extending paper
+Week 8 (11/04| Self study| Meeting supervisor - extending paper| 
 Week 9 (11/11)| Self study | 
-Week 10 (11/18)|Self study | Meeting supervisor - final check
-Week 11 (11/25)|  Project presentation
-Week 12 (12/02)|  Project presentation
-Week 13 (12/09)| Project presentation
-
+Week 10 (11/18)|Self study | Meeting supervisor - final check| 
+Week 11 (11/25)|  Project presentation| 
+Week 12 (12/02)|  Project presentation| 
+Week 13 (12/09)| Project presentation| 
