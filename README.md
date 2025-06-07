@@ -29,11 +29,11 @@ The course materials will be based on a mixture of classic and recently publishe
 Paper reading, reproducing and improvement  are the key activities in this course. To pass the course, you need to fulfill the following obligation
 - Attending the paper presentation: mandatory and not graded.
 - Performing a group project (graded)
-  --  Individual grade (20\%): the engagement and contribution thorough the project
-  --  Overall grade (80\%): the reproducing quality, the effectiveness of the proposed extension, the extensiveness of evaluation, the report, the code and presentation
+  - Individual grade (20\%): the engagement and contribution thorough the project
+  - Overall grade (80\%): the reproducing quality, the effectiveness of the proposed extension, the extensiveness of evaluation, the report, the code and presentation
   
 
-Check [Paper Reading List](PaperList.md)
+Check [Paper Reading List](papers.md)
 
 **All assessment items (presentation slides and report,) have to be submitted via ILIAS.**
 
