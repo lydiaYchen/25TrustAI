@@ -58,8 +58,8 @@ Lydia can be always reached at **lydiaychen@ieee.org**. In order to get prompt r
 
 
 
-##  <a name='Learningobjectives'></a>Learning objectives
-- To prepare the base for master thesis. 
+##  <a name='Learningobjectives'></a>Key milestones
+
 
 Here is the schedule for completing the project
 1. Week 3: Selecting the paper from the list and having the first-meeting to discuss the plan with the supervisor
@@ -75,8 +75,8 @@ Here is the schedule for completing the project
 :-----|:----- |:-----|:-----
 Week 1 (09/16) | Trustworthy GAI I| Lydia |
 Week 2 (09/23)| Trustworthy RL I | Christos | 
-Week 3 (09/30)| Trustworthy GAI II | Supervisor|**Mandatory Presence** 
-Week 4 (10/07)| Trustworthy RL II| Supervisors| **Mandatory Presence** Meeting supervisor - defining the projects
+Week 3 (09/30)| Trustworthy GAI II | GAI Supervisors|**Mandatory Presence** 
+Week 4 (10/07)| Trustworthy RL II| RL Supervisors| **Mandatory Presence** Meeting supervisor - defining the projects
 Week 5 (10/14)| Self study| 
 Week 6 (10/21)| Self study| |Meeting supervisor - reproducing results| 
 Week 7 (10/28)| Self study |
