@@ -15,12 +15,14 @@ This repository contains the materials of the  **Seminar on Seminar Trustworthy 
 
 
 ##  <a name='Coursedescription'></a>Course description
-[TBD]Artificial Intelligent models systems the integrated part of our daily life. 
+Artificial intelligence (AI) has rapidly become an integral part of modern life, shaping the way we work, communicate, and make decisions. Among its most transformative branches are generative AI and reinforcement learning from creative content generation and scientific discovery to autonomous systems and personalized recommendations. Generative AI models can synthesize realistic images, texts, and data, augmenting human creativity and enabling new forms of interaction and automation. Reinforcement learning, on the other hand, powers systems that learn optimal behaviors through interaction with dynamic environments, laying the foundation for intelligent decision-making in robotics, healthcare, finance, and more.
 
-[TBD] The aim of this seminar course is to let students learn how to understand, design and build trustworthy AI systems via paper reproducing and extensiong.  We provide a broad overview on the design of the state-of-the-art Trustworthy AI models and systems, with a strong focus generative AI and reinforcement learning systems. 
+While AI offers remarkable opportunities, they also pose significant risks when misused or deployed without adequate safeguards. Generative AI can be exploited to create convincing misinformation, deepfakes, or synthetic data that erodes trust in information ecosystems, while also raising concerns about intellectual property and identity manipulation. Reinforcement learning systems, particularly those used in areas like resource allocation, hiring, or automated decision-making, can perpetuate or even amplify unfair treatment if their reward functions or training data reflect biased societal norms. Since these systems learn behaviors through trial and error, they may inadvertently discover and exploit shortcuts that lead to discriminatory outcomes—especially when fairness constraints are not explicitly enforced. These risks highlight the urgent need to develop trustworthy AI—systems that are robust, transparent, fair, and aligned with human values.
+
+The aim of this seminar course is to equip students with the knowledge and practical skills needed to understand, design, and build trustworthy AI systems. Through paper reproduction and hands-on group projects—supported by bi-weekly coaching sessions—students will explore cutting-edge research and gain experience implementing and extending existing methods. The course provides a broad overview of state-of-the-art trustworthy AI models and systems, with a strong emphasis on generative AI and reinforcement learning. For the generative AI component, we will focus on three key areas: (i) detection techniques for verifying the authenticity of synthetic content, including images, tables, audio, and video; (ii) model selection algorithms that enable optimal GAI model choice under various online and offline settings and evaluation criteria; and (iii) assessment and evaluation of privacy risks associated with the use of generative models.
  
  
-The course materials will be based on a mixture of classic and recently published papers. The first 3-4 lectures, the basic concept of distributed machine learning will be covered, followed by six weeks of individual group advising, and then student group will present their project outcomes in the last three weeks.
+The course materials will be based on a mixture of classic and recently published papers. The first four  lectures will cover the basic concept of generative AI and reinforcement learning, followed by six weeks of individual group advising, and then student group will present their project outcomes in the last three weeks.
 
 
 ##  <a name='Paper List'></a>Course assessment
@@ -43,16 +45,20 @@ This course will be mainly taught by [Prof. Lydia Y Chen]([https://lydiaychen.gi
 
 
 
-Lydia can be always reached at **lydiaychen@ieee.org**. In order to get prompt response about the course, put the email title starting with [TAI25]
+Lydia can be always reached at **lydiaychen@ieee.org**, and Christos at Christos **christos.dimitrakakis@unine.ch**. In order to get prompt response about the course, put the email title starting with [TAI25]
 
 
 ##  <a name='Learningobjectives'></a>Learning objectives
-- To prepare the base for master thesis. 
-- To argue and reason about Trustworthy AI from the model and system perspective.
-- Generative AI I
-- Generative AI 2
-- RL 1
-- RL 2
+- Gain technical and practical skills to prepare for a master's thesis in AI.
+
+- Analyze trustworthy AI from both model and system perspectives.
+
+- Understand core techniques for detecting deepfakes across modalities.
+
+- Explore algorithms for selecting and evaluating generative AI models.
+
+- Assess privacy risks associated with generative AI and its outputs.
+
 
 
 
