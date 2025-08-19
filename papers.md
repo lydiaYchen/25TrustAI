@@ -31,10 +31,10 @@
   - **Link:** [https://arxiv.org/abs/2506.03802](https://arxiv.org/abs/2506.03802)  
   - **How to reproduce:**  
     To reproduce the paper, students should first implement a Upper Confidence Bound (UCB) algorithm for zero-sum games. Then, they can extend the UCB algorithm according to the paper and reproduce the experiments.  
- - **How to extend:**  
+  - **How to extend:**  
     1. Empirically study alternative regret measures, such as player-optimal and player-pessimal regret, independent of the matching instability studied in the paper.
     2. Conduct experiments in decentralized models. This requires students to study additional papers on decentralized matching models and perform initial experiments. Specifically, students can investigate different interaction protocols with additional feedback and analyze the system’s regret.
-   3. For highly motivated students, several directions for future research can be explored.
+    3. For highly motivated students, several directions for future research can be explored.
 
 
 
