@@ -96,17 +96,27 @@ earization or greedy algorithms).
   - How to exte
 
 
-## Topic 6 : RL
-- Supervisor: Elif
-- Paper 2.1
-  - Link
-  - How to reproduce
-  - How to exte
-- Paper 2.2
-  - Link
-  - How to reproduce
-  - How to exte
+## Topic 6 : RL (Zero-Sum Games and Multi-Armed Bandits)
 
+- **Supervisor:** Elif
+
+- **General description:**  
+  This topic covers the intersection of zero-sum games and multi-armed bandits. The multi-armed bandit framework addresses the core challenge of balancing exploration and exploitation. In contrast, zero-sum games capture adversarial strategic interactions in which one player’s gain directly corresponds to the other’s loss. The connection between these two areas becomes especially interesting when the payoff matrix is unknown and must be learned through bandit feedback from the players' chosen actions.
+
+
+- **Paper 6.1**
+  - **Link:** [Matrix Games with Bandit Feedback](https://proceedings.mlr.press/v161/o-donoghue21a/o-donoghue21a.pdf)
+  - **How to reproduce:**
+    Students should begin by implementing the algorithms proposed in the paper and then simulate and evaluate the performance of the algorithms by generating regret plots over time (Section 5). These plots will help them to present how the algorithms learn strategies compared to the theoretical guarantees.
+  - **How to extend:**
+    While the paper focuses on zero-sum games, one natural extension is to explore general-sum games experimentally, in order to investigate whether similar regret behaviors or convergence properties can be observed beyond the adversarial setting. Another possible direction is to study alternative feedback approaches, for example, full-bandit feedback, where players observe the entire payoff matrix after each round. Comparing these scenarios can provide valuable insights into how the feedback structures affects learning dynamics and player’s strategies.
+
+- **Paper 6.2**
+  - **Link:** [UCB Revisited: Improved Regret Bounds for the Stochastic Muti-Armed Bandit Problem](https://infotech.unileoben.ac.at/fileadmin/shares/infotech/personal-sites/Ronald_Ortner/publikationen/UCBRev.pdf) 
+  - **How to reproduce:**
+    This paper introduces an improved variant of the  Upper Confidence Bound (UCB) algorithm with an elimination strategy. To reproduce the results, students should first work through the derivation of the theoretical regret bounds presented in the paper. Then, they should implement the proposed algorithm and run simulations in standard MAB settings. Empirical regret should be plotted and compared against the performance of the classical UCB algorithm, with a focus on verifying whether the empirical results align with the improved theoretical bounds.
+  - **How to extend:**
+    Since the contribution of the paper is primarily theoretical, a natural extension is to broaden the experimental comparison. Students can implement several well-known MAB algorithms such as ETC, UCB, and EXP3 and compare them in terms of cumulative regret. After initial experiments on small number of arms, the experiments can be scaled up to a setting with a larger number of arms to see how performance changes as the action space grows. Another direction is to apply the proposed UCB algorithm to zero-sum game settings and evaluate its performance across different payoff matrices using different notions of regret.  
 
 
 - Supervisor
