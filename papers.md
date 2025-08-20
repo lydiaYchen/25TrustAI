@@ -49,16 +49,34 @@
   - How to reproduce
   - How to exte
 
+
 ## Topic 4: RL
-- Supervisor: Hortence
-- Paper 4.1
-  - Link
-  - How to reproduce
-  - How to exte
-- Paper 4.2
-  - Link
-  - How to reproduce
-  - How to exte
+- **Supervisor** : Hortence Nana
+  
+- **PAPER 4.1** : Bandit Learning in Many-to-One Matching Market
+  
+- **Brief description** : The paper considers a matching markets (like students to schools , doctors to hospitals or workers to companies) where there are many agents and fewer arms (schools/companies), and each arm can take multiple agents (capacity). Agents learn over time which arms they like because rewards are uncertain or unknown. So it's multi-armed bandits, but with matching and stability rules.
+  
+- **Link** : [https://openreview.net/pdf?id=rLuT4vG7NsO]
+  
+- **How to reproduce** : Student should reproduce the centralized many-to-one bandit matching algorithms and results as pro-
+vided in the paper. Authors implemented and test the centralized and decentralized Explore-Then-Commit and UCB alrorithms. Student will only focus on centralized part by implementing both or just focus on one of those algorithm if there isn't enough time.
+
+- **How to extend** : Student should focus on extending the original setting by changing the assumption on preferences. Specifically, in the extension, arm preferences are no longer given but must be learned from observed rewards, while agent preferences are known and fixed. This changes the learning objective: the learner now needs to estimate each arm's utilities for the available agents based on observed rewards over time. It makes the problem more complicated as each arm can content one or more agents. Focus on one algorithm and no need to design a new algorithm; instead, adapt the paper's algorithm to handle the new preference assumption and proof your theoretical result (regret bound).
+
+
+    
+- **PAPER 4.2** : Tight Regret Bounds for Stochastic Combinatorial Semi-Bandits
+
+- **Brief description**: 
+ 
+- **Link** : 
+  
+- **How to reproduce**
+- **How to extend**
+  
+**NB**: For oth topics, students will receive a pdf with a more formal description of paper and task, as well as some link that will help to understand some concept.
+
 
 
 ## Topic 5: GenAI
