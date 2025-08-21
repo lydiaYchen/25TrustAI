@@ -84,17 +84,46 @@ earization or greedy algorithms).
 
 
 
-## Topic 5: GenAI
-- Supervisor: Abel
-- Paper 1.1
-  - Link
-  - How to reproduce
-  - How to exte
-- Paper 1.2
-  - Link
-  - How to reproduce
-  - How to exte
+## Topic 5: GenAI (Sampling in graph synthesizers)
+- **Supervisor:** Abele Malan
 
+- **General description:**
+  Investigate the sampling procedure of iterative denoising (e.g., diffusion) deep learning models for generating synthetic graph data.
+  Such data encompasses the graph structure and, potentially, auxiliary information (e.g., molecular atom and bond types).
+  The reproducibility tasks focus on either exploring the sampling capabilities of a state-of-the-art model or techniques for conditioning sampling based on desirable properties across multiple models.
+  Consequently, extensions tackle areas like generation speed/quality improvements or further increasing the complexity of targeted conditions.
+  Since the work mainly concerns sampling, the longer and more resource-intensive part of training denoising models is not generally required.
+  However, experiments involving new datasets or smaller auxiliary models could be an exception.
+
+- **Paper 5.1:** DeFoG: Discrete Flow Matching for Graph Generation
+  - **Link:**
+    [https://openreview.net/pdf?id=KPRIwWhqAZ](https://openreview.net/pdf?id=KPRIwWhqAZ)
+  - **How to reproduce:**
+    Use the provided codebase (and model checkpoints) to run the DeFoG model proposed in the paper (without the other baseline models).
+    Specifically, recreate Table 1 (with 10% and 100% steps), Figure 2 (a), and all Figure 3 subfigures.
+  - **How to extend:**
+    Investigate at least one of the points below.
+    Self-proposed options are also welcome to be discussed.
+    - additional sample distortion functions, with the target of further boosting generation quality (MMD or validity), for (specific) test scenarios;
+    - graph editing (e.g., given a graph, use the model trained on planar data to edit it into a planar version) or augmentation (e.g., given a graph structure, add the node types) instead of generation from scratch;
+    - dynamic optimization of sampling parameters (distortion, target guidance, stochasticity) during generation.
+
+
+- **Paper 5.2:** Diffuse, Sample, Project: Plug-And-Play Controllable Graph Generation
+  - **Link:**
+    [https://openreview.net/pdf?id=ia0Z8d1DbY](https://openreview.net/pdf?id=ia0Z8d1DbY)
+  - **How to reproduce:**
+    Use the codebase provided by the PRODIGY framework authors and checkpoints from the authors of the underlying tested models to replicate PRODIGY's main results.
+    Specifically, recreate Table 5 (only the entries with PRODIGY and without the EDP-GNN model), Table 10 (which is Table 6, with additional hyperparameter information), and Table 11 (which is Table 7 with more hyperparameter information; only the QM9 dataset and again without the EDP-GNN model).
+    Note that the model referred to as DruM by PRODIGY authors has since been renamed to GruM by its authors.
+  - **How to extend:**
+    Investigate at least one of the points below.
+    Self-proposed options are also welcome to be discussed.
+    - optimizing for more than one condition at once (the method supports such a use case, but the paper does not test it);
+    - additional constraint types (e.g., control the count of other graphlets, like squares instead of triangles);
+    - new partial step $\gamma_t$ formulations (possibly based on an auxiliary neural network).
+
+*Bonus extension:* Harness classifier-free guidance in DeFoG's classifier-free guidance to dynamically steer graphs towards the closest counterpart satisfying one of the hard constraints covered in PRODIGY and analyze the obtained performance.
 
 ## Topic 6 : RL (Zero-Sum Games, Multi-Armed Bandits and Differential Privacy)
 
