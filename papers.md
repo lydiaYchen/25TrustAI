@@ -148,7 +148,3 @@ earization or greedy algorithms).
     Students can implement other multi-armed bandit algorithms such as ETC, UCB and EXP3 to better understand baseline methods and compare them with the private UCB. One direction is to evaluate its performance in larger action spaces and then compare the results. Another interesting extension is to apply the differential privacy notions to zero-sum games.
 
 
-- Supervisor
-- Paper 8.1
-- Paper 8.2
-- 
