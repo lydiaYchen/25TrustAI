@@ -2,15 +2,37 @@
 #  Course descriptionTopics, papers, and supervisors
 
 ## Topic 1: GenAI 
-- Supervisor: Basile
-- Paper 1.1 (title)
-  - Link
-  - How to reproduce
-  - How to extend
-- Paper 1.2
-  - Link
-  - How to reproduce
-  - How to extend
+- **Supervisor:** Basile
+- **General description:**
+  This topic proposes considering different approaches to increase efficiency in the inference of generative models. The first subject addresses the problem of model selection under budget constraints, which has received a lot of traction lately. The second one concerns the challenge of accelerating Text-to-Image generation using alternative computer arithmetic. The students will be able to use the most recent models to work on some very concrete issues of the current state of the art. They should be prepared to work on dense codebases and have a good understanding of the systems used in machine learning inference
+  
+- **Paper 1.1**
+  
+  - Link: [PromptWise: Online Learning for Cost-Aware Prompt Assignment in Generative Models](https://arxiv.org/abs/2505.18901)
+    
+  - How to reproduce:
+    
+    Students should reproduce the proposed algorithm, focusing on the simpler task. The algorithm should run locally on publicly available models, using the inference time as cost input. They can rely on previous works' codebase for easier implementation.
+    
+  - How to extend:
+    
+    The students should consider one or several of the following extension path :   
+      - Considering other modalities for the selected models, notably Text to Image generation. This requires using other models as well as considering new metrics for evaluation.
+      - Using active learning to improve the prediction accuracy. Thanks to a measure of uncertainty, we can predict when to query ground truth results in order to refine the prediction of our selector.
+
+- **Paper 1.2**
+  
+  - Link: [MixDQ: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed Precision Quantization](https://arxiv.org/abs/2405.17873)
+    
+  - How to reproduce:
+    
+    Reproduce the experimental results using the provided code. Specifically the students should ensure their results align with the value reported in the paper for SDXL.
+  
+  - How to extend:
+    
+    You can investigate one or several of the following points. Students are also welcomed to propose their ideas.  
+      - Adapt the framework for undistilled models. This opens the way to state-of-the-art models but requires to design a quantization error correcting scheme more robust than the one currently proposed.  
+      - Implement a caching policy to further increase sampling speed. Several caching methods already exist for diffusion models, it is yet to determine which one is the most suited to this case. 
 
 
 ## Topic 2: RL (Matching and Multi-Armed Bandits)  
