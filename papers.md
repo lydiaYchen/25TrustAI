@@ -42,7 +42,13 @@
 - **Supervisor:** Andreas Athanasopoulos  
 
 - **General description:**  
-  This topic aims to explore learning algorithms in the context of matching markets. Specifically, it considers a multi-agent learning scenario where multiple agents participate in a market and compete for their matches. Technically, students will study matching problems, which are central to economics (Nobel Prize awarded to Gale and Shapley), and their intersection with learning algorithms from Multi-Armed Bandits (MAB), a central framework in reinforcement learning.  
+  This topic aims to explore learning algorithms in the context of matching markets. Students will specifically study matching problems, where a central platform matches agents from two distinct sets based on their preferences. For example, consider the assignment of students to universities, where a central mechanism decides the allocation.
+
+  The papers specifically focus on learning fair (or trustworthy) outcomes of agents, where the notion of fairness is defined with respect to agents’ preferences. One important solution concept is **stable matching**, a matching where we cannot find a pair of agents who both prefer each other over their current partners. Stable matchings respect agents’ preferences and connect to the concept of equilibrium in game theory, since no pair of agents has an incentive to deviate from the market.
+
+  This topic represents a paradigm of multi-agent learning, where multiple agents participate in a market and compete for matches. Students will study matching problems, which are central to economics (with the Nobel Prize awarded to Gale and Shapley), and their intersection with learning algorithms from **Multi-Armed Bandits (MAB)**, a core framework in reinforcement learning.
+
+
 
 - 👨‍🏫: ⭐⭐  
   Some theoretical knowledge, particularly in multi-armed bandits, is required to fully understand the papers. We provide all the necessary material to ensure that students can follow along.
