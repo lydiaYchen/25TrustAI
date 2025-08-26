@@ -44,6 +44,11 @@
 - **General description:**  
   This topic aims to explore learning algorithms in the context of matching markets. Specifically, it considers a multi-agent learning scenario where multiple agents participate in a market and compete for their matches. Technically, students will study matching problems, which are central to economics (Nobel Prize awarded to Gale and Shapley), and their intersection with learning algorithms from Multi-Armed Bandits (MAB), a central framework in reinforcement learning.  
 
+- 👨‍🏫: ⭐⭐
+  - Some theoretical knowledge, particularly in multi-armed bandits, is required to fully understand the papers. We provide all the necessary material to ensure that students can follow along.
+- 🖥️: ⭐
+  - The experiments are simulation-based and can be conducted on a standard laptop.
+  
 - **Paper 2.1**
   - **Link:** [https://arxiv.org/abs/1906.05363](https://arxiv.org/abs/1906.05363)  
   - **How to reproduce:**  
