@@ -55,14 +55,19 @@
 - 🖥️: ⭐  
   The experiments are simulation-based and can be conducted on a standard laptop.
   
-- **Paper 2.1**
+- **Paper 2.1:**  **Competing Bandits in Matching Markets**  
+  The paper studies learning algorithms in settings where agents are initially unaware of their preferences. More specifically, it considers a scenario in which agents learn preferences through repeated interactions with each other, formulating the problem within the Multi-Armed Bandit framework.
   - **Link:** [https://arxiv.org/abs/1906.05363](https://arxiv.org/abs/1906.05363)  
   - **How to reproduce:**  
     To reproduce the paper, students should first implement classic Multi-Armed Bandit algorithms, specifically Explore-Then-Commit (ETC) and Upper Confidence Bound (UCB). Then, they should adapt these base algorithms to matching markets and replicate the experiments presented in the paper.  
   - **How to extend:**  
-    An interesting extension is to perform experiments that empirically quantify the algorithm’s performance in the case of non-truthful agents (Section 3.3 of the paper). While the paper studies this theoretically, many questions remain regarding the extent to which an agent can exploit rewards. Initial experiments would be valuable for students and could potentially lead to a thesis. Additionally, students can research related literature to complement their work.  
+    1. Provide experiments on randomly generated examples and plot the regret of the proposed algorithm.
+    2. Provide experiments where both sides of the market are initially unaware of their preferences.  
+    3. An interesting extension is to perform experiments that empirically quantify the algorithm’s performance in the case of non-truthful agents (Section 3.3 of the paper). While the paper studies this theoretically, many questions remain regarding the extent to which an agent can exploit rewards. Initial experiments would be valuable for students and could potentially lead to a thesis. Additionally, students can research related literature to complement their work.  
 
-- **Paper 2.2** (Challenging) 
+- **Paper 2.2:** **Learning Equilibria in Matching Games with Bandit Feedback** (Challenging)     
+The paper extends the previous work by considering interactions that occur after agents are matched. For example, after students are assigned to universities, students can choose their level of effort while universities can adjust the academic environment. These post-matching interactions are modeled as a zero-sum game, and the paper studies algorithms that learn the equilibrium in this setting.
+
   - **Link:** [https://arxiv.org/abs/2506.03802](https://arxiv.org/abs/2506.03802)  
   - **How to reproduce:**  
     To reproduce the paper, students should first implement a Upper Confidence Bound (UCB) algorithm for zero-sum games. Then, they can extend the UCB algorithm according to the paper and reproduce the experiments.  
