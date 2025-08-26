@@ -191,21 +191,23 @@ A Signal Processing Perspective](https://arxiv.org/pdf/2502.12445) Section 5A
 - **Supervisor:** Elif
 
 - **General description:**  
-  This topic covers the intersection of zero-sum games, multi-armed bandits and differential privacy. The multi-armed bandit framework addresses the core challenge of balancing exploration and exploitation. In contrast, zero-sum games capture adversarial strategic interactions in which one player’s gain directly corresponds to the other’s loss. The connection between these two areas becomes especially interesting when the payoff matrix is unknown and must be learned through bandit feedback from the players' chosen actions. Differential privacy, as a way to formalize the amount of information about the output of an algorithm, adds another layer to this setting by ensuring that the information through bandit feedback does not compromise sensitive data about players' actions or rewards. 
+  This topic covers multi-armed bandit (MAB) algorithms with a focus on incorporating additional considerations such as trustworthiness and differential privacy. Students will investigate both standard and trust-aware/differentially private MAB algorithms, understanding how trust/differential privacy dynamics influence decision-making and regret performance. Through simulations and experiments, students will gain experience in evaluating algorithm performance under different environments and constraints. Overall, the topic emphasizes both the theoretical foundations and practical implementation challenges of MAB algorithms.
 
+- 👨‍🏫: ⭐⭐
+- 🖥️: ⭐
 
 - **Paper 6.1**
-  - **Link:** [Matrix Games with Bandit Feedback](https://proceedings.mlr.press/v161/o-donoghue21a/o-donoghue21a.pdf)
+  - **Link:** [Minimax-optimal trust-aware multi-armed bandits](https://arxiv.org/pdf/2410.03651)
   - **How to reproduce:**
-    Students should begin by implementing the algorithms proposed in the paper and then simulate and evaluate the performance of the algorithms by generating regret plots over time (Section 5). These plots will help them to present how the algorithms learn strategies compared to the theoretical guarantees.
+    Students should begin by implementing the standard UCB algorithm and then the trust-aware UCB algorithm proposed in the paper (Section 3.2). They should reproduce the experimental setup by simulating environments (Section 5). Then, they should compare the performance of both algorithms by generating regret curves and analyzing whether the empirical results align with the theoretical regret bounds.
   - **How to extend:**
-    While the paper focuses on zero-sum games, one natural extension is to explore general-sum games experimentally, in order to investigate whether similar regret behaviors or convergence properties can be observed beyond the adversarial setting. Another possible direction is to study alternative feedback approaches, for example, full-bandit feedback, where players observe the entire payoff matrix after each round. Comparing these scenarios can provide valuable insights into how the feedback structures affects learning dynamics and player’s strategies.
+    Students can extend the paper by experimenting with a larger number of arms or running the algorithms over longer time horizons to test scalability. Another interesting extension is to design alternative models of trust update mechanism or alternative action recommendation based on trust level and compare performance against the original setup. On the other hand, they can implement different MAB algorithms such as ETC and apply trust-aware mechanism. Thus, students might better understand under which conditions trust-aware MABs provide the most benefit. 
 
 - **Paper 6.2**
   - **Link:** [Algorithms for Differentially Private Multi-Armed Bandits](https://arxiv.org/pdf/1511.08681) 
   - **How to reproduce:**
     This paper proposes a differentially private version of UCB in stochastic multi-armed bandit setting. To reproduce the results, students should implement the private UCB algorithm, then run simulations. Regret curves should be compared against the standard UCB and its private variants (section 4) and thus the regret bound should be verified.
   - **How to extend:**
-    Students can implement other multi-armed bandit algorithms such as ETC, UCB and EXP3 to better understand baseline methods and compare them with the private UCB. One direction is to evaluate its performance in larger action spaces and then compare the results. Another interesting extension is to apply the differential privacy notions to zero-sum games.
+    Students can implement other multi-armed bandit algorithms such as ETC, UCB and EXP3 to better understand baseline methods. They can apply similar differential privacy notions to different MAB algorithms to compare them with the private UCB. One direction is to evaluate its performance in larger action spaces and then compare the results. Another interesting extension is to apply the differential privacy notions to zero-sum games.
 
 
