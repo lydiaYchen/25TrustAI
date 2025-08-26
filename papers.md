@@ -63,15 +63,34 @@
 
 
 ## Topic 3: GenAI
-- Supervisor: Gert
-- Paper 3.1
-  - Link
-  - How to reproduce
-  - How to exte
-- Paper 3.2
-  - Link
-  - How to reproduce
-  - How to exte
+- **Supervisor** Gert Lek
+- **General description :** AI-generated images are increasingly hard to distinguish by eye, and the political and safety consequences pose significant risks to trust in digital media, elections, and public discourse. This topic studies training-free detection of AI-generated images using vision foundation models to improve our ability to detect synthetic content.
+
+- **Paper 3.1** Further improving training-free AI-generated image detection.
+
+  - 👨‍🏫: ⭐
+  - 🖥️: ⭐⭐⭐
+  
+  - **Link :** [Understanding and Improving Training-Free AI-Generated Image Detections with Vision Foundation Models](https://arxiv.org/abs/2411.19117)
+  - **Brief description :** This work examines training-free detection of AI-generated images by analyzing how robust different their vision foundation model embeddings are to perturbations. It shows that fake images tend to be more sensitive to perturbations (e.g. Gaussian noise) than their real counterpart. It then designs an approach to use this sensitivity to detect fake images. The authors evaluate several pre-trained foundation models and perturbations. The authors then propose two improvements to make this insight competitive in detection with trained methods. 
+  - **How to reproduce :** You will be given a set of 1000 image pairs (real vs. fake). Reproduce the key experiments as follows:
+    1. Implement the baseline detector (RIGID) by extracting and computing the embedding similarity.
+    2. Recreate the Gaussian noise and Gaussian blur perturbation experiment.
+    3. Implement the MINDER approach from the paper by taking the minimum of similarities.
+       
+  - **How to extend :** More recent, powerful foundation models such as DINOv3 and I-JEPA have been released since the publication. An extension would be to evaluate these using the same framework on more powerful foundation models. You can also explore alternative aggregation schemes on the similarities instead of the mean, to use more structural information to improve performance. If we can find a new perturbation, this would be interesting, but the obvious choices for this have already been exhausted. Self-proposed extensions are also appreciated.
+
+- **Paper 3.2** : Loss-landscape analysis of AI-generated vs. real images.
+
+  - 👨‍🏫: ⭐
+  - 🖥️: ⭐⭐⭐
+  
+  - **Link :** [Computational Safety for Generative AI:
+A Signal Processing Perspective](https://arxiv.org/pdf/2502.12445) Section 5A
+  - **Brief description :** Section V-A of this survey studies training-free detection of AI-generated images. It uses the above approach but visualises the loss-landscape in the vision foundation model embedding space. This visual is compared with its real counterpart. The insight here is that the synthetic images have a very specific and distinct loss-landscape vs. real images. 
+  - **How to reproduce :** You will be given a set of 1000 image pairs (real vs. fake). Reproduce the key experiments:
+    Select a subset of the real and generated images from several diffusion models and recreate their 2d loss-landscape visual. This is achieved by computing cosine similarities over different noise intensities. Create multiple graphs with varying settings of noise in each graph. 
+  - **How to extend :** We conjecture that increased realism in more recent and powerful diffusion models has reduced the sensitivity difference. Thus the loss landscape of fake images should converge to that of the real images. You can investigate if this is indeed the case. This conjecture has important consequences: If true, images would become increasingly harder to detect. But if false, synthetic images look more realistic but carry the same artifacts that tell them apart from real images. Therefore, you will get data sets from more and less modern diffusion models and compare their loss-landscapes. A follow-up is to see when the conjecture is true, if more powerful foundation models restore the difference in the loss landscape. Self-proposed extensions are also appreciated.
 
 
 ## Topic 4: RL
