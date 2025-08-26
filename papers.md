@@ -186,7 +186,7 @@ A Signal Processing Perspective](https://arxiv.org/pdf/2502.12445) Section 5A
 
 *Bonus extension:* Harness classifier-free guidance in DeFoG's classifier-free guidance to dynamically steer graphs towards the closest counterpart satisfying one of the hard constraints covered in PRODIGY and analyze the obtained performance.
 
-## Topic 6 : RL (Zero-Sum Games, Multi-Armed Bandits and Differential Privacy)
+## Topic 6 : RL (Trust-Aware and Differentially Private Multi-Armed Bandits)
 
 - **Supervisor:** Elif
 
