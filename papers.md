@@ -94,17 +94,17 @@
     
 - **PAPER 4.2** : Tight Regret Bounds for Stochastic Combinatorial Semi-Bandits
 
+  - 👨‍🏫: ⭐
+  - 🖥️: ⭐⭐⭐
+
   - **Brief description**: The paper studies an online learning setting called stochastic combinatorial semi-bandits. In this setting, a learning agent repeatedly selects subsets of items (subject to combinatorial constraints), observes their individual stochastic rewards, and aims to maximize cumulative reward over time. The key contribution of the paper is an analysis of the CombUCB1 algorithm, a UCB-like algorithm for this setting, and the derivation of tight regret bounds that are both gap-dependent and gap-free.
  
   - **Link** : [https://proceedings.mlr.press/v38/kveton15.pdf]
   
   - **How to reproduce**: Student should implement the CombUCB1 . concretely, carefully read and understand the problem definition (Section 2), the CombUCB1 algorithm and its initialization, and the theoretical results and proofs for regret bounds. Implement CombUCB1 as described in Algorithm 1 and make some experiments.
     
-  - **How to extend**:
-    1.  As an extension, student could define a combinatorial matching problem as the feasible set $\mathcal{M}$, for example: a bipartite matching between two sets ( colleges and students or workers and companies), each edge (it can be the couple (college-student) or (worker-company)) has an unknown stochastic reward. Use an oracle for maximum-weight matching based on UCB estimates.  Adapt CombUCB1 to this matching problem by modifying initialization and oracle calls accordingly, and analyzing expected computational complexity. The oracle in CombUCB1 is a black box that solves an optimization problem coming from the matching formulation.
-    2.  Explore non-linear reward extensions: consider submodular reward functions (e.g. diversity), or consider quadratic rewards (pairwise interaction terms), and propose how UCB estimates can be incorporated into such objectives (possibly approximate via lin-
-earization or greedy algorithms).
-    3. Empirically evaluate the extended algorithm on synthetic matching instances, non-linear reward scenarios and compare performance to baseline (CombUCB1 with linear reward).
+  - **How to extend**: As extention, student will just find a simple use case application and apply it there.
+   
   
 **NB**: For both papers, students will receive a pdf with a more formal description of each paper and tasks, as well as some link that will help to understand some concept.
 
