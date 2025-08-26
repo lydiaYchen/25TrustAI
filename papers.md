@@ -3,6 +3,8 @@
 
 ## Topic 1: GenAI 
 - **Supervisor:** Basile
+- 👨‍🏫: ⭐
+- 🖥️: ⭐⭐⭐
 - **General description:**
   This topic proposes considering different approaches to increase efficiency in the inference of generative models. The first subject addresses the problem of model selection under budget constraints, which has received a lot of traction lately. The second one concerns the challenge of accelerating Text-to-Image generation using alternative computer arithmetic. The students will be able to use the most recent models to work on some very concrete issues of the current state of the art. They should be prepared to work on dense codebases and have a good understanding of the systems used in machine learning inference
   
