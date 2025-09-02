@@ -63,12 +63,13 @@ A Signal Processing Perspective](https://arxiv.org/pdf/2502.12445) Section 5A
 ## Topic 3: GenAI
 
 - **Supervisor:** Basile
-- 👨‍🏫: ⭐
-- 🖥️: ⭐⭐⭐
+
 - **General description:**
-  This topic proposes considering different approaches to increase efficiency in the inference of generative models. The first subject addresses the problem of model selection under budget constraints, which has received a lot of traction lately. The second one concerns the challenge of accelerating Text-to-Image generation using alternative computer arithmetic. The students will be able to use the most recent models to work on some very concrete issues of the current state of the art. They should be prepared to work on dense codebases and have a good understanding of the systems used in machine learning inference
+  This topic proposes considering different approaches to increase efficiency in the inference of generative models. The first subject addresses the problem of model selection under budget constraints, which has received a lot of traction lately. The second one concerns the challenge of accelerating Text-to-Image generation using alternative computer arithmetic. These subjects also contributes to AI trustworthiness by ensuring that generative models can deliver consistent results under limited computational budgets and by making the trade-offs between cost, speed, and output quality more explicit and measurable. The students will be able to use the most recent models to work on some very concrete issues of the current state of the art. They should be prepared to work on dense codebases and have a good understanding of the systems used in machine learning inference
   
 - **Paper 3.1**
+  - 👨‍🏫: ⭐⭐
+  - 🖥️: ⭐⭐ 
   
   - Link: [PromptWise: Online Learning for Cost-Aware Prompt Assignment in Generative Models](https://arxiv.org/abs/2505.18901)
     
@@ -83,6 +84,8 @@ A Signal Processing Perspective](https://arxiv.org/pdf/2502.12445) Section 5A
       - Using active learning to improve the prediction accuracy. Thanks to a measure of uncertainty, we can predict when to query ground truth results in order to refine the prediction of our selector.
 
 - **Paper 3.2**
+  - 👨‍🏫: ⭐
+  - 🖥️: ⭐⭐⭐
   
   - Link: [MixDQ: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed Precision Quantization](https://arxiv.org/abs/2405.17873)
     
