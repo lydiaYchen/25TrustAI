@@ -211,7 +211,7 @@ The paper extends the previous work by considering interactions that occur after
     [https://openreview.net/pdf?id=ia0Z8d1DbY](https://openreview.net/pdf?id=ia0Z8d1DbY)
   - **How to reproduce:**
     Use the codebase provided by the PRODIGY framework authors and checkpoints from the authors of the underlying tested models to replicate PRODIGY's main results.
-    Specifically, recreate Table 5 (only the entries with PRODIGY and without the EDP-GNN model), Table 10 (which is Table 6, with additional hyperparameter information), and Table 11 (which is Table 7 with more hyperparameter information; only the QM9 dataset and again without the EDP-GNN model).
+    Specifically, recreate Table 5 (which is a variant of Table 4 with extra hyperparameter information; only the entries with PRODIGY and without the EDP-GNN model), Table 10 (which is Table 6 with additional hyperparameter information), and Table 11 (which is Table 7 with more hyperparameter information; only the QM9 dataset and again without the EDP-GNN model).
     Note that the model referred to as DruM by PRODIGY authors has since been renamed to GruM by its authors.
   - **How to extend:**
     - optimizing for more than one condition at once (the method supports such a use case, but the paper does not test it);
