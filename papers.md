@@ -35,6 +35,7 @@ A Signal Processing Perspective](https://arxiv.org/pdf/2502.12445) Section 5A
 ## Topic 2 : RL (Trust-Aware and Differentially Private Multi-Armed Bandits)
 
 - **Supervisor:** Elif
+- **Email**: elif.yilmaz@unine.ch
 
 - **General description:**  
   This topic covers multi-armed bandit (MAB) algorithms with a focus on incorporating additional considerations such as trustworthiness and differential privacy. Students will investigate both standard and trust-aware/differentially private MAB algorithms, understanding how trust/differential privacy dynamics influence decision-making and regret performance. Through simulations and experiments, students will gain experience in evaluating algorithm performance under different environments and constraints. Overall, the topic emphasizes both the theoretical foundations and practical implementation challenges of MAB algorithms.
