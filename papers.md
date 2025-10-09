@@ -104,7 +104,8 @@ A Signal Processing Perspective](https://arxiv.org/pdf/2502.12445) Section 5A
 
 ## Topic 4: RL (Matching and Multi-Armed Bandits)  
 
-- **Supervisor:** Andreas Athanasopoulos  
+- **Supervisor:** Andreas Athanasopoulos
+- **mail**: andreas.athanasopoulos@unine.ch 
 
 - **General description:**  
   This topic aims to explore learning algorithms in the context of matching markets. Students will specifically study matching problems, where a central platform matches agents from two distinct sets based on their preferences. For example, consider the assignment of students to universities, where a central mechanism decides the allocation.
