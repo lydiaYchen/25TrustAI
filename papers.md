@@ -145,6 +145,8 @@ The paper extends the previous work by considering interactions that occur after
 
 ## Topic 5: RL
 - **Supervisor** : Hortence Nana
+
+- **Email**: hortence.yiepnou@unine.ch
   
 - **PAPER 5.1** : Bandit Learning in Many-to-One Matching Market
   
